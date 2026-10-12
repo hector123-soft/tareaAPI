@@ -1,0 +1,8 @@
+<div class="container py-5">
+  <h1 class="text-center">Galería de Perros</h1>
+  <div class="row g-4 mt-3">
+    <div class="col-4" *ngFor="let p of perros">
+      <img [src]="p" class="img-fluid rounded" style="height:200px;object-fit:cover;">
+    </div>
+  </div>
+</div>
